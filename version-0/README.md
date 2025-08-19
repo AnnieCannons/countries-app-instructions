@@ -1,4 +1,4 @@
-# Countries API Application - Version 0
+# Countries Application - Version 0
 
 ## 👋 Welcome!
 
@@ -11,7 +11,7 @@ In Version 0, you'll build a mobile-responsive React app that:
 - Shows all countries on the Home page using a reusable CountryCard component
 - Displays country data from the `localData.js` file 
 - Is styled according to provided [Figma designs](https://www.figma.com/design/YuEMNteoQic0h6RRiYprpV/Countries-API-Project?node-id=1045-2&p=f&t=T2oSD2lU7TuxaG13-0)
-- Deployment to Netlify is NOT required. 
+- *Note: Deployment to Netlify is NOT required. 
 
 ![Example of Version 0 project](https://github.com/user-attachments/assets/79094b58-6856-4491-8fa5-0a394f85f0b9)
 
@@ -54,13 +54,14 @@ This component displays data for a single country
 ## 🚀 Roadmap: Step-by-step guide to building your project
 
 ### Fork & Clone the Github repo 
-1. Fork this Github repo into your own account. Use this [fork and clone guide](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.55gk3qetux2a#heading=h.wbbot8ebr58a) to help you.
-2. Clone your new Github repo into the `dev` folder on your local machine. 
+1. Fork the [countries-app-fall-2025 repo](https://github.com/AnnieCannons/countries-app-fall-2025/tree/main). Use this [fork and clone guide](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.55gk3qetux2a#heading=h.wbbot8ebr58a) to help you.
+2. Open up the Terminal on your computer.
+3. Clone your forked `countries-app-fall-2025` Github repo into your `dev` folder.
 
 ### Create a new React project with Vite 
-1. In the terminal, navigate into your repo and then into the `version-0` folder
-2. In the `version-0` folder, create a new React project with [Vite](https://vite.dev/). Use this [How to create a new project with Vite guide](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.rxwa6murqe1y#heading=h.wvxq6966uco7) to help you. 
-3. Once you're done, commit your changes and push your code to GitHub.
+1. In the Terminal, `cd` into your repo and then into the `version-0` folder.
+2. In the `version-0` folder, create a new React project with [Vite](https://vite.dev/) by using the command `npm create vite@latest .`. Don't forget the dot — this will create your project inside of the current folder. Use this [How to create a new project with Vite guide](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.rxwa6murqe1y#heading=h.wvxq6966uco7) to help you. 
+3. Add, commit, and push your code to GitHub. 
 
 ### Set up files & folder structure
 1. In the `src` folder, create a `pages` folder
