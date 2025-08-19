@@ -1,4 +1,4 @@
-# Countries Application - Version 0
+# Countries App - Version 0 - Instructions
 
 ## 👋 Welcome!
 
