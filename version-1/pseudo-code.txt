@@ -1,0 +1,53 @@
+--------------------
+🎯 Countries App — Version 1 — Milestone: Pseudo-Code
+--------------------
+
+Answer the below questions to pseudo-code your Version 1. 
+
+--------------------
+Home Page
+--------------------
+  
+  1. Props: What props will this component receive from its parent, if any?
+  
+  2. Children: What child components will this page need, if any? What props will those child components receive?
+  
+  3. User Actions: What actions will the user be able to take on this page, and what functions will handle those actions?
+  
+  4. State: What state variables will this page need?
+  
+  5. Steps: Write down the first 3-5 steps you'll take to build this page.
+  
+  6. Notes: Write extra thoughts, questions, or reminders you want to capture.
+
+--------------------
+SavedCountries Page
+--------------------
+  
+  1. Props: What props will this component receive from its parent, if any?
+  
+  2. Children: What child components will this page need, if any? What props will those child components receive?
+  
+  3. User Actions: What actions will the user be able to take on this page, and what functions will handle those actions?
+  
+  4. State: What state variables will this page need?
+  
+  5. Steps: Write down the first 3-5 steps you'll take to build this page.
+  
+  6. Notes: Write extra thoughts, questions, or reminders you want to capture.
+
+--------------------
+CountryDetail Page
+--------------------
+  
+  1. Props: What props will this component receive from its parent, if any?
+  
+  2. Children: What child components will this page need, if any? What props will those child components receive?
+  
+  3. User Actions: What actions will the user be able to take on this page, and what functions will handle those actions?
+  
+  4. State: What state variables will this page need?
+  
+  5. Steps: Write down the first 3-5 steps you'll take to build this page.
+  
+  6. Notes: Write extra thoughts, questions, or reminders you want to capture.
