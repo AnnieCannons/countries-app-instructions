@@ -50,10 +50,12 @@ Make sure you've finished Version 0 before moving on with the following steps.
 3. Push your code to Github!
 
 ### 🎯 Milestone: Fetch and Display API Data
+The goal of this milestone is to fetch the countries data from the API in your `App` component, pass the data down as a prop to your `Home` component, and render the data on the Home page as `CountryCard` components. 
+
 1. In `App.jsx`, write a function that fetches countries data from the [REST Countries API](https://restcountries.com) and saves the data in a state variable.
 2. Call the function on page load using the `useEffect` hook.
 3. Pass the countries API data down as a prop from the App component into the 3 pages: Home, SavedCountries, and CountryDetail
-4. Display countries data from API call on the Home page, instead of displaying data from `data.json`
+4. Display countries data from API call on the Home page, instead of displaying data from `localData.js`
 5. Push your code to Github!
 
 ### 🎯 Milestone: CountryDetail Page
