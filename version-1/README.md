@@ -28,23 +28,33 @@ In Version 1, you'll build a mobile-responsive React app that:
 ## 🚀 Roadmap: Step-by-step guide to building your project
 Make sure you've finished Version 0 before moving on with the following steps.
 
+### 🎯 Milestone: Pseudo-Code
+1. Carefully read through this entire roadmap for Version 1.
+2. Answer these questions for each of the following 4 components: App, Home, SavedCountries, CountryDetail
+  - What props will this component receive from its parent? 
+  - What child components will you need, if any? What props will those components receive?
+  - What actions will the user be able to take on this page, and what function will handle that action? 
+  - What state variables will you need?
+  - Write down the first 3-5 steps you'll take to build this component. 
+  - Write any other notes you would like
+
 ### Project Setup: Copy your files over 
 1. Copy all of the files inside of your `version-0` folder
 2. Paste all of the files into your `version-1` folder
 3. Push your code to Github! You will use your `version-0` code as the starting point for your `version-1`.
 
-### 🎯 Milestone 1: Build the Form on the SavedCountries Page
+### 🎯 Milestone: Build the Form on the SavedCountries Page
 1. In SavedCountries.jsx, create the Form so that the user can submit their profile information
 2. Style the Form according to the Figma designs
 3. Push your code to Github!
 
-### 🎯 Milestone 2: Create API Call to REST Countries API
+### 🎯 Milestone: Create API Call in App.jsx
 1. In App.jsx, create API call that pulls countries data from the [REST Countries API](https://restcountries.com) using the `useEffect` hook
 2. Pass the countries API data down as a prop from the App component as a prop into the 3 pages: Home page, Saved Countries page, and CountryDetail page
 3. Display countries data from API call on the Home page, instead of displaying data from `data.json`
 4. Push your code to Github!
 
-### 🎯 Milestone 3: Create the CountryDetail page
+### 🎯 Milestone: Create the CountryDetail page
 1. Create the CountryDetail page and and style it according to the Figma designs.
 2. Implement [dynamic routing with React Router by following this guide](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.f13uxxkk1u49#heading=h.k4m41u3ojj4d). This allows you to show details about a specific country based on which country you clicked on. 
 3. Push your code to Github!
