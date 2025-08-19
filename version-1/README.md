@@ -62,7 +62,7 @@ Make sure you've finished Version 0 before moving on with the following steps.
 
 ### Clean and Comment your code 
 1. Clean up your code by renaming confusing variables, removing unused code, and organizing your logic. Your code should read like a newspaper: clear, easy to follow, and understandable at a glance.
-2. Comment your code generously — Future You will thank you. You’ll be building on top of this project over the next 3 months, so help yourself out by writing clear, helpful comments that explain what your code is doing. Trust us, it will save you time and confusion later.
+2. Comment your code and explain what your code is doing. Future You will thank you.
 3. Push your code to Github!
 
 ### Deploy project to Netlify
