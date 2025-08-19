@@ -62,15 +62,16 @@ This component displays data for a single country
 6. Open up the `version-0` folder in VS Code. Time to start coding! 
 
 ### Set up files & folder structure
-1. In the `src` folder, create a `pages` folder
-2. In the `pages` folder, set up components for each page by making these 3 files: Home.jsx, SavedCountries.jsx, and CountryDetail.jsx
-3. In the `src` folder, create a `components` folder
+1. In the `src` folder, create a `pages` folder and a `components` folder
+2. In the `pages` folder, set up each page by making these 3 files: 
+   - `Home.jsx`
+   - `SavedCountries.jsx`
+   - `CountryDetail.jsx`
 4. In the `components` folder, make a file called `CountryCard.jsx`
 5. Add, commit, and push your code to Github. 
 6. By now, your project's folder structure should look like this. Double check to make sure you have all the right files and folders before moving on:
    
 ![image](https://github.com/user-attachments/assets/19d923f4-1861-404d-9d1b-819951f99d06)
-
 
 ### Set up Routes with `react-router`
 Refer to this [react-router guide](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.hbxxe6vmm0fq#heading=h.snu4ai1ffrgi) as you do the following steps:
@@ -88,7 +89,7 @@ Refer to this [react-router guide](https://docs.google.com/document/d/18jxCUA0be
    ```
    <Home countriesData={dataFromLocalFile} />
    ```
-3. In `Home.jsx`, use the `countriesData` prop to render a list of `CountryCard` components—one for each country.
+3. In `Home.jsx`, use the `countriesData` prop to render a list of `CountryCard` components — one for each country.
 4. In `App.css`, style the `Home` and `CountryCard` components to match the Figma designs.
 5. Once you're done, commit your changes and push your code to GitHub.
 
@@ -104,7 +105,7 @@ Refer to this [react-router guide](https://docs.google.com/document/d/18jxCUA0be
 ### Stretch Goals (optional — only do these if you have completed _all_ of the above steps)
 
 Finished all the steps above? Amazing!   
-Keep leveling up by tackling these next challenges:
+Start your Version 1 by tackling these next challenges:
 1. 🏆 Create the form on the SavedCountries page based on this [Figma Design for the Form](https://www.figma.com/design/YuEMNteoQic0h6RRiYprpV/Countries-API-Project?node-id=1-329&t=eKfO5eJcdQC03CrI-4)
 2. 🏆 Sort the countries on the Home page in alphabetical order
 3. 🏆 Deploy your version-0 folder to Netlify via your Github repo. In your Netlify Deploy settings, you will need to specify the folder that you want to deploy. Check out [this guide to help you](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.jnwta4jrhylr#heading=h.scmsi7a6s9yz).
