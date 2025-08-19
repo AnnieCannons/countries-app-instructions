@@ -44,15 +44,16 @@ Make sure you've finished Version 0 before moving on with the following steps.
 3. Push your code to Github! You will use your `version-0` code as the starting point for your `version-1`.
 
 ### 🎯 Milestone: Build the Form on the SavedCountries Page
-1. In SavedCountries.jsx, create the Form so that the user can submit their profile information
+1. In `SavedCountries.jsx`, create the Form so that the user can submit their profile information
 2. Style the Form according to the Figma designs
 3. Push your code to Github!
 
-### 🎯 Milestone: Create API Call in App.jsx
-1. In App.jsx, create API call that pulls countries data from the [REST Countries API](https://restcountries.com) using the `useEffect` hook
-2. Pass the countries API data down as a prop from the App component as a prop into the 3 pages: Home page, Saved Countries page, and CountryDetail page
-3. Display countries data from API call on the Home page, instead of displaying data from `data.json`
-4. Push your code to Github!
+### 🎯 Milestone: API Call
+1. In `App.jsx`, write a function that fetches countries data from the [REST Countries API](https://restcountries.com) and saves the data in a state variable.
+2. Call the function on page load using the `useEffect` hook.
+3. Pass the countries API data down as a prop from the App component into the 3 pages: Home, SavedCountries, and CountryDetail
+4. Display countries data from API call on the Home page, instead of displaying data from `data.json`
+5. Push your code to Github!
 
 ### 🎯 Milestone: Create the CountryDetail page
 1. Create the CountryDetail page and and style it according to the Figma designs.
