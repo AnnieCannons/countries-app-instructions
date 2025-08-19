@@ -1,4 +1,4 @@
-# Countries API Application - Version 4
+# Countries Application - Version 4
 
 ## 👋 Welcome!
 
@@ -44,7 +44,7 @@ Build a working PostgreSQL database and Express API/server that allows your fron
 
 ---
 
-### 🎯 Milestone: Create your database schema
+### 🎯 Milestone: SQL Database Schema
 1. Write PostgreSQL code to:
    a. Create 3 tables: `users`, `saved_countries`, and `country_counts`
    b. Insert at least 3 rows of sample data into each table
@@ -55,7 +55,7 @@ Build a working PostgreSQL database and Express API/server that allows your fron
 
 ---
 
-### 🎯 Milestone: Set up your PostgreSQL database on Neon
+### 🎯 Milestone: Deploy Database to Neon
 1. Use Neon.tech to:
   - Create a new database
   - Set up your schema (create the 3 tables and insert rows of sample data)
@@ -157,6 +157,7 @@ Finished the main requirements? Here are some bonus challenges:
 - 🏆 Add a “Delete” route to unsave a single country
 - 🏆 Add a “Clear” feature to unsave all countries
 - 🏆 Add a “Reset Count” feature to reset a country's count back to 0 
+
 
 
 
