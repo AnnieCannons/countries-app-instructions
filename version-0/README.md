@@ -56,19 +56,18 @@ This component displays data for a single country
 ### Fork & Clone the Github repo 
 1. Fork the [countries-app-fall-2025 repo](https://github.com/AnnieCannons/countries-app-fall-2025/tree/main). Use this [fork and clone guide](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.55gk3qetux2a#heading=h.wbbot8ebr58a) to help you.
 2. Open up the Terminal on your computer.
-3. Clone your forked `countries-app-fall-2025` Github repo into your `dev` folder.
-
-### Create a new React project with Vite 
-1. In the Terminal, `cd` into your repo and then into the `version-0` folder.
-2. In the `version-0` folder, create a new React project with [Vite](https://vite.dev/) by using the command `npm create vite@latest .`. Don't forget the dot — this will create your project inside of the current folder. Use this [How to create a new project with Vite guide](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.rxwa6murqe1y#heading=h.wvxq6966uco7) to help you. 
-3. Add, commit, and push your code to GitHub. 
+3. Clone your forked `countries-app-fall-2025` Github repo into your `dev` folder. 
+4. `cd` into your newly cloned `countries-app-fall-2025` folder.
+5. Run `ls`, which stands for "list". This command lists all the current files and folders in your current folder. You should see `version-0` as one of the folders listed.
+6. Open up the `version-0` folder in VS Code. Time to start coding! 
 
 ### Set up files & folder structure
 1. In the `src` folder, create a `pages` folder
 2. In the `pages` folder, set up components for each page by making these 3 files: Home.jsx, SavedCountries.jsx, and CountryDetail.jsx
 3. In the `src` folder, create a `components` folder
 4. In the `components` folder, make a file called `CountryCard.jsx`
-5. By now, your project's folder structure should look like this. Double check to make sure you have all the right files and folders before moving on:
+5. Add, commit, and push your code to Github. 
+6. By now, your project's folder structure should look like this. Double check to make sure you have all the right files and folders before moving on:
    
 ![image](https://github.com/user-attachments/assets/19d923f4-1861-404d-9d1b-819951f99d06)
 
