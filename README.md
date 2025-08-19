@@ -1,8 +1,10 @@
-# Countries Application
+# Countries App Instructions
 
 ## 👋 Welcome!
 
 Throughout the Backend course, you will build a full-stack web application that displays information about countries around the world.
+
+This repo contains instructions for how to build Versions 0 through 5 of this application.
 
 ![image](https://github.com/user-attachments/assets/33b74a77-21ae-4e00-bac0-9638f70890d4)
 
