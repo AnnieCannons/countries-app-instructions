@@ -1,4 +1,4 @@
-# Countries API Application - Version 1
+# Countries  — Version 1 - Instructions
 
 ## 👋 Welcome!
 
