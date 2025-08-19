@@ -1,4 +1,4 @@
-# Countries App Version 3 - Instructions
+# Countries App — Version 3 - Instructions
 
 ## 👋 Welcome!
 
@@ -116,4 +116,5 @@ Make sure you've finished Version 2 before starting.
 
 ### Deploy project to Netlify
 1. Deploy your completed project to [Netlify](https://www.netlify.com/) via your Github repo. In your Netlify Deploy settings, you will need to specify which version you want to deploy. Check out [this guide to help you](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.jnwta4jrhylr#heading=h.scmsi7a6s9yz).
+
 
