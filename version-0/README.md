@@ -57,9 +57,7 @@ This component displays data for a single country
 1. Fork the [countries-app-fall-2025 repo](https://github.com/AnnieCannons/countries-app-fall-2025/tree/main). Use this [fork and clone guide](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.55gk3qetux2a#heading=h.wbbot8ebr58a) to help you.
 2. Open up the Terminal on your computer.
 3. Clone your forked `countries-app-fall-2025` Github repo into your `dev` folder. 
-4. `cd` into your newly cloned `countries-app-fall-2025` folder.
-5. Run `ls`, which stands for "list". This command lists all the current files and folders in your current folder. You should see `version-0` as one of the folders listed.
-6. Open up the `version-0` folder in VS Code. Time to start coding! 
+4. Your newly cloned `countries-app-fall-2025` folder contains a `version-0` folder. Open up the `version-0` folder in VS Code.
 
 ### Set up files & folder structure
 1. In the `src` folder, create a `pages` folder and a `components` folder
@@ -81,7 +79,7 @@ Refer to this [react-router guide](https://docs.google.com/document/d/18jxCUA0be
      - "Where in the world?" should link to the Home page
      - "Saved Countries" should link to the SavedCountries page
 4. In App.css, style the header 
-5. Once you're done, commit your changes and push your code to GitHub.
+5. Add, commit, and push your code to Github. 
 
 ### In the Home page, display localData from `localData.js` file as CountryCard components
 1. In `App.jsx`, import the `localData.js` file. This file contains an array of country objects.
@@ -91,12 +89,12 @@ Refer to this [react-router guide](https://docs.google.com/document/d/18jxCUA0be
    ```
 3. In `Home.jsx`, use the `countriesData` prop to render a list of `CountryCard` components — one for each country.
 4. In `App.css`, style the `Home` and `CountryCard` components to match the Figma designs.
-5. Once you're done, commit your changes and push your code to GitHub.
+5. Add, commit, and push your code to Github. 
 
 ### Clean and Comment your code
 1. Clean up your code by renaming confusing variables, removing unused code, and organizing your logic. Your code should read like a newspaper: clear, easy to follow, and understandable at a glance.
 2. Comment your code generously — Future You will thank you. You’ll be building on top of this project over the next 3 months, so help yourself out by writing clear, helpful comments that explain what your code is doing. Trust us, it will save you time and confusion later.
-3. Don't forget to push your code to Github!
+3. Add, commit, and push your code to Github. 
 
 ### Submit to Canvas, and prepare for your demo 
 1. Submit the Github repo link to Canvas.
