@@ -54,7 +54,7 @@ Give your project a clear, simple name.
 
 ## 🚀 Live Site
 
-[View the Live Site](https://your-project.netlify.app)
+https://your-project.netlify.app
 
 ## 🖼️ Screenshots
 
