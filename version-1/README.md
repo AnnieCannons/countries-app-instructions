@@ -28,17 +28,6 @@ In Version 1, you'll build a mobile-responsive React app that:
 ## 🚀 Roadmap: Step-by-step guide to building your project
 Make sure you've finished Version 0 before moving on with the following steps.
 
-### 🎯 Milestone: Pseudo-Code
-1. Carefully read through this entire roadmap for Version 1.
-2. Answer the below questions for each of the following 3 pages: Home, SavedCountries, CountryDetail. You may use any text editor of your choice (Google Docs, Notion, etc.), or create a `pseudo-code.txt` file in your project folder like this one.
-3. For each page, answer: 
-  - Props: What props will this component receive from its parent, if any? 
-  - Children: What child components will this page need, if any? What props will those child components receive?
-  - User Actions: What actions will the user be able to take on this page, and what functions will handle those actions? 
-  - State: What state variables will this page need?
-  - Steps: Write down the first 3-5 steps you'll take to build this page. 
-  - Notes: Write extra thoughts, questions, or reminders you want to capture.
-
 ### Project Setup: Copy your files over 
 1. Copy all of the files inside of your `version-0` folder
 2. Paste all of the files into your `version-1` folder
