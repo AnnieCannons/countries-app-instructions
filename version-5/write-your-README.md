@@ -128,3 +128,4 @@ If you have more than one table, include them all.
 ## 🙌 Credits & Shoutouts 
 
 Thanks to ________ for __________!
+And thanks to ________ for __________!
