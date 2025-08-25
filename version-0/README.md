@@ -53,13 +53,13 @@ This component displays data for a single country
 
 ## 🚀 Roadmap: Step-by-step guide to building your project
 
-### Fork & Clone the Github repo 
+### ⚙️ Fork & Clone the Github repo 
 1. Fork the [countries-app-fall-2025 repo](https://github.com/AnnieCannons/countries-app-fall-2025/tree/main). Use this [fork and clone guide](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.55gk3qetux2a#heading=h.wbbot8ebr58a) to help you.
 2. Open up the Terminal on your computer.
 3. Clone your forked `countries-app-fall-2025` Github repo into your `dev` folder. 
 4. Your newly cloned `countries-app-fall-2025` folder contains a `version-0` folder. Open up the `version-0` folder in VS Code.
 
-### Set up files & folder structure
+### ⚙️ Set up files & folder structure
 1. In the `src` folder, create a `pages` folder and a `components` folder
 2. In the `pages` folder, set up each page by making these 3 files: 
    - `Home.jsx`
@@ -71,7 +71,7 @@ This component displays data for a single country
    
 ![image](https://github.com/user-attachments/assets/19d923f4-1861-404d-9d1b-819951f99d06)
 
-### Set up Routes with `react-router`
+### ⚙️ Set up Routes with `react-router`
 Refer to this [react-router guide](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.hbxxe6vmm0fq#heading=h.snu4ai1ffrgi) as you do the following steps:
 1. In the terminal, in your `version-0` folder, install the `react-router` package using the command `npm install react-router`. 
 2. In App.jsx file, set up Routes for 3 pages: Home page, SavedCountries page, and CountryDetail page.
@@ -81,7 +81,7 @@ Refer to this [react-router guide](https://docs.google.com/document/d/18jxCUA0be
 4. In App.css, style the header 
 5. Add, commit, and push your code to Github. 
 
-### In the Home page, display localData from `localData.js` file as CountryCard components
+### ⚙️ In the Home page, display localData from `localData.js` file as CountryCard components
 1. In `App.jsx`, import the `localData.js` file. This file contains an array of country objects.
 2. In `App.jsx`, pass the data to the `Home` component using a prop called `countriesData`. 
    ```
@@ -91,16 +91,16 @@ Refer to this [react-router guide](https://docs.google.com/document/d/18jxCUA0be
 4. In `App.css`, style the `Home` and `CountryCard` components to match the Figma designs.
 5. Add, commit, and push your code to Github. 
 
-### Clean and Comment your code
+### ⚙️ Clean and Comment your code
 1. Clean up your code by renaming confusing variables, removing unused code, and organizing your logic. Your code should read like a newspaper: clear, easy to follow, and understandable at a glance.
 2. Comment your code generously — Future You will thank you. You’ll be building on top of this project over the next 3 months, so help yourself out by writing clear, helpful comments that explain what your code is doing. Trust us, it will save you time and confusion later.
 3. Add, commit, and push your code to Github. 
 
-### Submit to Canvas, and prepare for your demo 
+### ⚙️ Submit to Canvas, and prepare for your demo 
 1. Submit the Github repo link to Canvas.
 2. Be ready to demo what you've got on Day 1 of Backend — complete or not. We want to see your thinking and progress! 💡 
 
-### Stretch Goals (optional — only do these if you have completed _all_ of the above steps)
+### 🌟 Stretch Goals (optional — only do these if you have completed _all_ of the above steps)
 
 Finished all the steps above? Amazing!   
 Start your Version 1 by tackling these next challenges:
