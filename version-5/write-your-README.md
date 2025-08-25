@@ -2,7 +2,7 @@
 
 A well-written README helps others (and your future self!) understand, use, and appreciate your project. Here’s a quick guide to writing one.
 
-## 📌 What Is a README?
+## 📌 What is a README?
 
 A `README.md` is usually the **first** thing someone sees in your repo. It gives an **overview** of what your **project** is about, how to use it, and how it works.
 
@@ -14,6 +14,10 @@ It’s your chance to tell the world what your hard work is all about!
 - Don’t overthink it! Just explain your project clearly
 - Use headers, bullet points, and links to keep it easy to read
 - Update the README if your project changes
+
+## ✨ Example of a README
+
+- Coming soon!
 
 ## 🎨 Markdown Formatting Tips
 
@@ -62,7 +66,7 @@ Your instructor will walk you through this process with the rest of the class. P
 2. Find your Github README.md file on the Github website
 3. Edit the site by clicking on the Pencil icon ✏️
 4. Move your cursor to the position where you want to paste the screenshot, then paste it. Github will convert the pasted screenshot into an `<img>` tag
-6. Select "Commit changes..." to save your changes 
+5. Select "Commit changes..." to save your changes 
 
 ## ✨ Features
 
@@ -93,7 +97,20 @@ This is what you can do on the app:
 
 ## 🔹 API Documentation
 
-Learn about the API endpoints here: [insert link to API documentation]
+These are the API endpoints I built: 
+1. ___________
+2. ___________
+
+Learn more about the API endpoints here: [insert link to API documentation]
+
+## 🗄️ Database Schema
+
+Here’s the SQL I used to create my tables:  
+
+```sql
+Put your CREATE TABLE statements here!
+If you have more than one table, include them all.
+```
 
 ## 💭 Reflections
 
