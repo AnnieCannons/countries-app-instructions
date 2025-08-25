@@ -45,10 +45,9 @@ Once you're done filling out the template, paste it into your Github repo's main
 
 # 📝 Your Project's Title — Replace this with your app's name!
 
-## 📌 Description
+## 📌 Project Description & Purpose
 
-This project is ___________. 
-(In 1-2 sentences, briefly describe what this project does, who it's for, and why it's useful.) 
+This project is ___________
 
 ## 🚀 Live Site
 
@@ -108,4 +107,4 @@ Here are the pages and what the user can do on each page:
 
 ## 🙌 Credits & Shoutouts 
 
-Thanks to ________ for __________. 
+Thanks to ________ for __________!
