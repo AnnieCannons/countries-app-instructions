@@ -43,60 +43,69 @@ Once you're done filling out the template, paste it into your Github repo's main
 
 ---
 
-# 📝 Your Project's Title — Replace this!
-
-Give your project a clear, simple name.
+# 📝 Your Project's Title — Replace this with your app's name!
 
 ## 📌 Description
 
-- What is this project and its purpose? 
-- Why did you build it?
+This project is ___________. 
+(In 1-2 sentences, briefly describe what this project does, who it's for, and why it's useful.) 
 
 ## 🚀 Live Site
 
-https://your-project.netlify.app
+Check out the app: https://your-project.netlify.app
 
 ## 🖼️ Screenshots
 
-Copy & paste 1–2 images of your project here to show it off! 
+Include a screenshot of your project to show it off! 
 
-To take a screenshot of a specific portion of the screen, press and hold `Command + Control + Shift + 4`, then drag the crosshair cursor to select the area. The screenshot will be automatically copied, so that you can paste it directly into this README.md file. 
+To take a screenshot of part of the screen, press and hold `Command + Control + Shift + 4`, then drag the crosshair cursor to select the area. The screenshot will be automatically copied, so that you can paste it directly into this README.md file. 
 
 ## ✨ Features
 
-What are the features that you implemented in the app? 
-For example:
-- List the pages you built (e.g. Home, About, Dashboard)
-- Describe what the user can do on each page (e.g. view data, submit a form, search, etc.)
+Here are the pages and what the user can do on each page: 
+
+**Page 1:** __________ Page
+- Users can ____________
+- Users can ____________
+
+**Page 2:** __________ Page
+- Users can ____________
+- Users can ____________
+
+(Add more pages if needed!)
 
 ## 🛠️ Tech Stack
 
-List the tools and technologies you used to build the frontend, backend and database. 
-
 **Frontend**
 
-- **Languages:**
-- **Framework:**
-- **Deployment:**
+- **Languages:** ___________
+- **Framework:** ___________
+- **Deployment:** ___________
 
 **Server/API**
 
-- **Languages:**
-- **Framework:**
-- **Deployment:**
+- **Languages:** ___________
+- **Framework:** ___________
+- **Deployment:** ___________
 
 **Database**
 
-- **Languages:**
-- **Deployment:**
+- **Languages:** ___________
+- **Deployment:** ___________
 
 ## 💭 Reflections
 
-- What did you learn?
-- What are you proud of?
-- What was challenging?
-- Any future ideas for how you'd continue building the project?
+**What I learned:** ___________
 
-## 🙌 Credits
+**What I'm proud of:** ___________
 
-Did anyone or anything help you? Shout out tutorials or teammates. 
+**What challenged me:** ___________
+
+**Future ideas for how I'd continue building this project:** 
+1. ___________
+2. ___________
+3. ___________
+
+## 🙌 Credits & Shoutouts 
+
+Thanks to ________ for __________. 
