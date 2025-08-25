@@ -91,6 +91,10 @@ This is what you can do on the app:
 - **Languages:** ___________
 - **Deployment:** ___________
 
+## 🔹 API Documentation
+
+Learn about the API endpoints here: [insert link to API documentation]
+
 ## 💭 Reflections
 
 **What I learned:** ___________
