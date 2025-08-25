@@ -66,17 +66,11 @@ Your instructor will walk you through this process with the rest of the class. P
 
 ## ✨ Features
 
-Here are the pages and what the user can do on each page: 
-
-**Page 1:** __________ Page
-- Users can ____________
-- Users can ____________
-
-**Page 2:** __________ Page
-- Users can ____________
-- Users can ____________
-
-(Add more pages if needed!)
+This is what you can do on the app: 
+- ____________
+- ____________
+- ____________
+- ____________
 
 ## 🛠️ Tech Stack
 
