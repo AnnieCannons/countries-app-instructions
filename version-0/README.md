@@ -59,6 +59,23 @@ This component displays data for a single country
 3. Clone your forked `countries-app-fall-2025` Github repo into your `dev` folder. 
 4. Your newly cloned `countries-app-fall-2025` folder contains a `version-0` folder. Open up the `version-0` folder in VS Code.
 
+---
+
+### ⚙️ Review your `version-0` starter files 
+
+Your version-0 folder is a **blank React project** that’s been lightly customized for you. It’s basically what you’d get from creating a new React project with Vite — but we’ve cleaned up the boilerplate and added one extra file: localData.js.
+
+Before writing any code, take a few minutes to explore what’s already there. Knowing your starting point will help you feel confident as you build. Pay special attention to these files:
+1. `localData.js` — Contains the array of country objects you’ll display on the Home page
+3. `README.md` – Contains the link to the `version-0` instructions
+4. `package.json` – Lists your dependencies (the tools your app needs) and project info
+7. `.gitignore` – Tells Git which files and folders _not_ to track (to keep certain data private) 
+13. 📂 `src` – The heart of your app — this is where all your React code will live!
+
+🧠 If you’re curious about what each of these files does (and why they matter), check out the [Demystifying Vite & React Folder Structure guide](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.v30xhdl91zel). 
+
+---
+
 ### ⚙️ Set up files & folder structure
 1. In the `src` folder, create a `pages` folder and a `components` folder
 2. In the `pages` folder, set up each page by making these 3 files: 
@@ -71,6 +88,8 @@ This component displays data for a single country
    
 ![image](https://github.com/user-attachments/assets/19d923f4-1861-404d-9d1b-819951f99d06)
 
+---
+
 ### ⚙️ Set up Routes with `react-router`
 Refer to this [react-router guide](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.hbxxe6vmm0fq#heading=h.snu4ai1ffrgi) as you do the following steps:
 1. In the terminal, in your `version-0` folder, install the `react-router` package using the command `npm install react-router`. 
@@ -79,10 +98,12 @@ Refer to this [react-router guide](https://docs.google.com/document/d/18jxCUA0be
      - "Where in the world?" should link to the Home page
      - "Saved Countries" should link to the SavedCountries page
 4. In App.css, style the header 
-5. Add, commit, and push your code to Github. 
+5. Add, commit, and push your code to Github.
+
+---
 
 ### ⚙️ In the Home page, display localData from `localData.js` file as CountryCard components
-1. In `App.jsx`, import the `localData.js` file. This file contains an array of country objects.
+1. In `App.jsx`, import the `localData.js` file. This file contains an array of country objects. It's located in the `version-0` folder. 
 2. In `App.jsx`, pass the data to the `Home` component using a prop called `countriesData`. 
    ```
    <Home countriesData={dataFromLocalFile} />
@@ -91,14 +112,20 @@ Refer to this [react-router guide](https://docs.google.com/document/d/18jxCUA0be
 4. In `App.css`, style the `Home` and `CountryCard` components to match the Figma designs.
 5. Add, commit, and push your code to Github. 
 
+---
+
 ### ⚙️ Clean and Comment your code
 1. Clean up your code by renaming confusing variables, removing unused code, and organizing your logic. Your code should read like a newspaper: clear, easy to follow, and understandable at a glance.
 2. Comment your code generously — Future You will thank you. You’ll be building on top of this project over the next 3 months, so help yourself out by writing clear, helpful comments that explain what your code is doing. Trust us, it will save you time and confusion later.
 3. Add, commit, and push your code to Github. 
 
+---
+
 ### ⚙️ Submit to Canvas, and prepare for your demo 
 1. Submit the Github repo link to Canvas.
 2. Be ready to demo what you've got on Day 1 of Backend — complete or not. We want to see your thinking and progress! 💡 
+
+---
 
 ### 🌟 Stretch Goals (optional — only do these if you have completed _all_ of the above steps)
 
