@@ -80,7 +80,17 @@ Before writing any code, take a few minutes to explore what’s already there. K
 
 ---
 
-### ⚙️ Set up files & folder structure
+### ⚙️ Run your code for the first time 
+
+To see how your project looks in the browser, let's run your code! 
+
+1. In the terminal on VS Code, make sure you're in the `version-0` folder. Use `pwd`, `ls`, and `cd` commands to navigate into the `version-0` folder.
+2. In the `version-0` folder, run `npm install`. This will install all the libraries and dependencies needed to run your project, such as React.
+3. Then run `npm run dev`. You will see a URL in the terminal output that looks something like `http://localhost:5173/`. Visit that URL in the browser to see how your project currently looks! 
+
+---
+
+### ⚙️ Set up files & folder structure in VS Code 
 1. In the `src` folder, create a `pages` folder and a `components` folder
 2. In the `pages` folder, set up each page by making these 3 files: 
    - `Home.jsx`
