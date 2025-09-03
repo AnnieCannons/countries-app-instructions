@@ -33,6 +33,9 @@ Make sure you've finished Version 0 before moving on with the following steps.
 2. Paste all of the files into your `version-1` folder
 3. Push your code to Github! You will use your `version-0` code as the starting point for your `version-1`.
 
+4. ### Deploy project to Netlify
+1. Deploy your `version-1` folder to [Netlify](https://www.netlify.com/) via your Github repo. In your Netlify Deploy settings, you will need to specify which version you want to deploy. Check out [this deployment guide to help you](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.jnwta4jrhylr#heading=h.scmsi7a6s9yz).
+
 ### 🎯 Milestone: Build Form on the SavedCountries Page
 1. In `SavedCountries.jsx`, create the Form so that the user can submit their profile information (name, email, country, and bio). 
 2. Style the Form according to the Figma designs
@@ -58,9 +61,6 @@ The goal of this milestone is to fetch the countries data from the API in your `
 1. Clean up your code by renaming confusing variables, removing unused code, and organizing your logic. Your code should read like a newspaper: clear, easy to follow, and understandable at a glance.
 2. Comment your code and explain what your code is doing. Future You will thank you.
 3. Push your code to Github!
-
-### Deploy project to Netlify
-1. Deploy your completed project to [Netlify](https://www.netlify.com/) via your Github repo. In your Netlify Deploy settings, you will need to specify which version you want to deploy. Check out [this deployment guide to help you](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.jnwta4jrhylr#heading=h.scmsi7a6s9yz).
 
 ### Stretch Goals (optional — only do these if you have completed _all_ of the above steps)
 
