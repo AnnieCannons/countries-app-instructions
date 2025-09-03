@@ -62,6 +62,10 @@ The goal of this milestone is to fetch the countries data from the API in your `
 2. Comment your code and explain what your code is doing. Future You will thank you.
 3. Push your code to Github!
 
+⚙️ Submit to Canvas
+1. Push your code to Github
+2. Submit the Github repo link and Netlify deployment link to Canvas.
+
 ### Stretch Goals (optional — only do these if you have completed _all_ of the above steps)
 
 Finished all the above steps? Fantastic! 
