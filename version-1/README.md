@@ -33,13 +33,14 @@ Make sure you've finished Version 0 before moving on with the following steps.
 2. Paste all of the files into your `version-1` folder
 3. Push your code to Github! You will use your `version-0` code as the starting point for your `version-1`.
 
-4. ### Deploy project to Netlify
+### Deploy project to Netlify
 1. Deploy your `version-1` folder to [Netlify](https://www.netlify.com/) via your Github repo. In your Netlify Deploy settings, you will need to specify which version you want to deploy. Check out [this deployment guide to help you](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.jnwta4jrhylr#heading=h.scmsi7a6s9yz).
 
 ### 🎯 Milestone: Build Form on the SavedCountries Page
 1. In `SavedCountries.jsx`, create the Form so that the user can submit their profile information (name, email, country, and bio). 
 2. Style the Form according to the Figma designs
 3. Push your code to Github!
+4. Submit your Github repo link and Netlify link to the Canvas milestone. 
 
 ### 🎯 Milestone: Fetch and Display API Data
 The goal of this milestone is to fetch the countries data from the API in your `App` component, pass the data down as a prop to your `Home` component, and render the data on the Home page as `CountryCard` components. 
@@ -51,6 +52,7 @@ The goal of this milestone is to fetch the countries data from the API in your `
 3. Pass the countries API data down as a prop from the App component into the 3 pages: Home, SavedCountries, and CountryDetail
 4. Display countries data from API call on the Home page, instead of displaying data from `localData.js`
 5. Push your code to Github!
+6. Submit your Github repo link and Netlify link to the Canvas milestone. 
 
 ### 🎯 Milestone: CountryDetail Page
 1. Create the CountryDetail page and and style it according to the Figma designs.
