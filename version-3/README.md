@@ -8,7 +8,7 @@ Instead of storing data in local storage, you'll now store and retrieve data fro
 
 You’ll use the Fetch API to send and receive data — a critical skill for building real-world apps.
 
-Coming up in Version 4, you'll go even further and build your own backend from scratch!
+Coming up in Version 4, you'll go even further and build your own database and API from scratch!
 
 ## 🎯 Requirements for Version 3
 
@@ -54,6 +54,9 @@ Make sure you've finished Version 2 before starting.
 1. Copy all of the files from your `version-2` folder and paste them into your `version-3` folder
 2. Push your code to Github! Your `version-2` code will serve as the starting point for `version-3`.
 
+### Deploy project to Netlify
+1. Deploy your version-2 folder to Netlify via your Github repo. In your Netlify Deploy settings, you will need to specify which version you want to deploy. Check out this deployment guide to help you.
+
 ### Project Setup: Replace the contents of your `vite.config.js` file
 1. Delete all of the code that's currently inside of your `vite.config.js` file
 2. In its place, copy and paste this code into your `vite.config.js` file:
@@ -94,13 +97,15 @@ Make sure you've finished Version 2 before starting.
 2. Store the data with a `POST` request: When the user submits the form, send the form data to the backend.
 3. Retrieve the data with a `GET` request: If the user has already submitted the form, display “Welcome, [name]!” instead.
 4. Add comments explaining your logic so that Future You can understand it later.
-5. Push your code to Github! 
+5. Push your code to Github!
+6. Submit your Github repo link and Netlify link to the Canvas milestone.
 
 ### 🎯 Milestone: View Count data 
 1. Pseudo-code your plan for tracking the View Count data. 
 2. Store the data with a `POST` request: Each time the user views a country's CountryDetail page, update its view count by sending a POST request to the API. In the response, you will get back the new count within an object: display the new count on the country's CountryDetail page. 
 3. Add comments explaining your logic so that Future You can understand it later.
 4. Push your code to Github!
+5. Submit your Github repo link and Netlify link to the Canvas milestone.
 
 ### 🎯 Milestone: Saved Countries data
 1. Pseudo-code your plan to store and retrieve Saved Countries data.
@@ -108,13 +113,17 @@ Make sure you've finished Version 2 before starting.
 3. Retrieve the data with a `GET` request: Retrieve and display saved countries on the Saved Countries page.
 4. Add comments explaining your logic so that Future You can understand it later.
 5. Push your code to Github!
+6. Submit your Github repo link and Netlify link to the Canvas milestone.
 
-### Clean and Comment your code 
-1. Rename confusing variables, remove unused code, and organize your logic. Your code should read like a newspaper: clear, easy to follow, and understandable at a glance.
-2. Write helpful comments explaining tricky logic — Future You will thank you. 
-3. Push your code to Github!
+### Test everything
+Test that all 3 pieces of data are being stored and retrieved properly. Make sure everything is working. Double check that you completed all of the project requirements (listed above).
 
-### Deploy project to Netlify
-1. Deploy your completed project to [Netlify](https://www.netlify.com/) via your Github repo. In your Netlify Deploy settings, you will need to specify which version you want to deploy. Check out [this guide to help you](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.jnwta4jrhylr#heading=h.scmsi7a6s9yz).
+### Clean and Comment your code
+1. Clean up your code by renaming confusing variables, removing unused code, and organizing your logic. Your code should read like a newspaper: clear, easy to follow, and understandable at a glance.
+2. Comment your code generously — Future You will thank you. You’ll be building on top of this project over the next 3 months, so help yourself out by writing clear, helpful comments that explain what your code is doing. Trust us, it will save you time and confusion later.
+Push your code to Github!
 
+⚙️ Submit to Canvas! You're done with Version 3!
+1. Push your code to Github
+2. Submit the Github repo link and Netlify deployment link to Canvas.
 
