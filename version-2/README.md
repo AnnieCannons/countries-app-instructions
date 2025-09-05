@@ -52,6 +52,7 @@ Make sure you've finished Version 1 before moving on with the following steps.
 3. Work on retrieving Form data from Local Storage. If the user has already submitted the Form, display "Welcome, {user}!" instead of the Form.
 4. Comment the code you wrote so that Future You can understand it later.
 5. Push your code to Github!
+6. Submit your Github repo link and Netlify link to the Canvas milestone.
 
 ### 🎯 Milestone: Saved Countries data
 1. Pseudo-code what you will need to do to store and retrieve the Saved Countries data.
@@ -59,6 +60,7 @@ Make sure you've finished Version 1 before moving on with the following steps.
 3. Work on retrieving the saved countries data from Local Storage, so that they show on the Saved Countries page. 
 4. Don’t forget to comment your logic as you go!
 5. Push your code to Github!
+6. Submit your Github repo link and Netlify link to the Canvas milestone.
 
 ### 🎯 Milestone: View Count data 
 1. Pseudo-code what you will need to do to store and retrieve the View Count data. 
@@ -66,14 +68,19 @@ Make sure you've finished Version 1 before moving on with the following steps.
 3. Update your main.jsx file by removing the StrictMode component that's wrapping your app. It was included by default in Vite’s setup to help catch bugs, but it causes React to render components twice in development. This makes your view count go up by 2 instead of 1. To fix this, simply remove StrictMode from `main.jsx` so your view count behaves correctly.
 4. Don’t forget to comment your logic as you go!
 5. Push your code to Github!
+6. Submit your Github repo link and Netlify link to the Canvas milestone.
+
+### Test everything
+1. Test that all 3 pieces of data are being stored and retrieved properly. Make sure everything is working. Double check that you completed all of the project requirements (listed above). 
 
 ### Clean and Comment your code 
 1. Clean up your code by renaming confusing variables, removing unused code, and organizing your logic. Your code should read like a newspaper: clear, easy to follow, and understandable at a glance.
 2. Comment your code generously — Future You will thank you. You’ll be building on top of this project over the next 3 months, so help yourself out by writing clear, helpful comments that explain what your code is doing. Trust us, it will save you time and confusion later.
 3. Push your code to Github!
 
-### Deploy project to Netlify
-1. Deploy your completed project to [Netlify](https://www.netlify.com/) via your Github repo. In your Netlify Deploy settings, you will need to specify which version you want to deploy. Check out [this guide to help you](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.jnwta4jrhylr#heading=h.scmsi7a6s9yz).
+### ⚙️ Submit to Canvas! You're done with Version 2
+1. Push your code to Github
+2. Submit the Github repo link and Netlify deployment link to Canvas.
 
 ### Stretch Goals (optional — only do these if you have completed _all_ of the above steps)
 
@@ -83,3 +90,4 @@ Here are a few next-level challenges to tackle:
 1. 🏆 On the Saved Countries page, add an “Unsave” button so the user can remove a country from their saved list.
 2. 🏆 Turn the Save button into a red heart ❤️ when the country has been saved, or a grey heart 🩶 when the country has not been saved. 
 3. 🏆 Add a “Submit again” button to the Form so the user can re-submit if they’d like to.
+
