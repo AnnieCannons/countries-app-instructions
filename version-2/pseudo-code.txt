@@ -96,7 +96,7 @@ RETRIEVING SAVED COUNTRIES DATA
 
 1. WHAT data should we retrieve? 
 YOUR ANSWER: 
-The key is _______
+The key is "_______"
 and the value is _______
 The data type of the value is _______
 Example value: _______
@@ -120,7 +120,7 @@ STORING COUNTRY COUNTS DATA
 
 1. WHAT data should we store? 
 YOUR ANSWER: 
-The key is _______
+The key is "_______"
 The value is _______
 The data type of the value is _______
 Example value: _______
@@ -144,7 +144,7 @@ RETRIEVING COUNTRY COUNTS DATA
 
 1. WHAT data should we retrieve? 
 YOUR ANSWER: 
-The key is _______
+The key is "_______"
 and the value is _______
 The data type of the value is _______
 Example value: _______
