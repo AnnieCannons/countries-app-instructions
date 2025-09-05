@@ -26,6 +26,7 @@ STORING FORM DATA
 YOUR ANSWER: 
 The key is "_______"
 The value is _______
+The data type of the value is _______
 Example value: _______
 
 2. WHEN should we store the data? 
@@ -49,6 +50,7 @@ RETRIEVING FORM DATA
 YOUR ANSWER: 
 The key is "_______"
 and the value is _______
+The data type of the value is _______
 Example value: _______
 
 2. WHEN should we retrieve the data? 
@@ -72,6 +74,7 @@ STORING SAVED COUNTRIES DATA
 YOUR ANSWER: 
 The key is "_______"
 The value is _______
+The data type of the value is _______
 Example value: _______
 
 2. WHEN should we store the data? 
@@ -95,6 +98,7 @@ RETRIEVING SAVED COUNTRIES DATA
 YOUR ANSWER: 
 The key is _______
 and the value is _______
+The data type of the value is _______
 Example value: _______
 
 2. WHEN should we retrieve the data? 
@@ -118,6 +122,7 @@ STORING COUNTRY COUNTS DATA
 YOUR ANSWER: 
 The key is _______
 The value is _______
+The data type of the value is _______
 Example value: _______
 
 2. WHEN should we store the data? 
@@ -141,6 +146,7 @@ RETRIEVING COUNTRY COUNTS DATA
 YOUR ANSWER: 
 The key is _______
 and the value is _______
+The data type of the value is _______
 Example value: _______
 
 2. WHEN should we retrieve the data? 
