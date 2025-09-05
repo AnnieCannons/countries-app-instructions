@@ -19,6 +19,7 @@ Add functionality to store the following data in Local Storage:
 2. **Saved Countries data**
     - As a user, on my Saved Countries page, I should be able to see all of the Saved Countries.
     - As a user, when I click the Save button in an individual country's page, I should be able to see that country's card in my Saved Countries page
+    - A country cannot be saved twice. If I try to save a country that has already been saved, then nothing will happen. 
 3. **View Count data** 
     - As a user, when I open a country's page, I should be able to see how many times the user has viewed this country.
     - Every time I view a country's page, its view count should go up by 1.
@@ -57,15 +58,16 @@ Make sure you've finished Version 1 before moving on with the following steps.
 ### 🎯 Milestone: Saved Countries data
 1. Pseudo-code what you will need to do to store and retrieve the Saved Countries data.
 2. Work on saving a country in Local Storage. When the user saves a country, store the country's data in Local Storage.
-3. Work on retrieving the saved countries data from Local Storage, so that they show on the Saved Countries page. 
-4. Don’t forget to comment your logic as you go!
-5. Push your code to Github!
-6. Submit your Github repo link and Netlify link to the Canvas milestone.
+3. Make sure that a country cannot be saved twice. If you try to save a country that's already been saved, nothing should happen. 
+4. Work on retrieving the saved countries data from Local Storage, so that they show on the Saved Countries page. 
+5. Don’t forget to comment your logic as you go!
+6. Push your code to Github!
+7. Submit your Github repo link and Netlify link to the Canvas milestone.
 
 ### 🎯 Milestone: View Count data 
 1. Pseudo-code what you will need to do to store and retrieve the View Count data. 
 2. When the user views a country's CountryDetail page, that country's view count should go up by 1, and that view count should be rendered on the page. 
-3. Update your main.jsx file by removing the StrictMode component that's wrapping your app. It was included by default in Vite’s setup to help catch bugs, but it causes React to render components twice in development. This makes your view count go up by 2 instead of 1. To fix this, simply remove StrictMode from `main.jsx` so your view count behaves correctly.
+3. If you notice your view count is going up by 2 instead of 1, try this trick:  Update your main.jsx file by removing the StrictMode component that's wrapping your app. It was included by default in Vite’s setup to help catch bugs, but it causes React to render components twice in development, which is why your view count goes up by 2 instead of 1. Simply removing StrictMode from `main.jsx` will make your your view count increment correctly.
 4. Don’t forget to comment your logic as you go!
 5. Push your code to Github!
 6. Submit your Github repo link and Netlify link to the Canvas milestone.
@@ -90,4 +92,5 @@ Here are a few next-level challenges to tackle:
 1. 🏆 On the Saved Countries page, add an “Unsave” button so the user can remove a country from their saved list.
 2. 🏆 Turn the Save button into a red heart ❤️ when the country has been saved, or a grey heart 🩶 when the country has not been saved. 
 3. 🏆 Add a “Submit again” button to the Form so the user can re-submit if they’d like to.
+
 
