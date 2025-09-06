@@ -35,20 +35,20 @@ Add functionality to store the following data in Local Storage:
 Make sure you've finished Version 1 before moving on with the following steps.
 
 ### Project Setup: Copy your files over 
-1. Copy all of the files inside of your `version-1` folder
-2. Paste all of the files into your `version-2` folder
+1. Duplicate your `version-1` folder
+2. Rename the duplicated folder as your `version-2` folder
 3. Push your code to Github! You will use your `version-1` code as the starting point for your `version-2`.
-
-### Deploy project to Netlify
-1. Deploy your `version-2` folder to [Netlify](https://www.netlify.com/) via your Github repo. In your Netlify Deploy settings, you will need to specify which version you want to deploy. Check out [this deployment guide to help you](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.jnwta4jrhylr#heading=h.scmsi7a6s9yz).
 
 ### 🎯 Milestone: Pseudo-Code
 1. Complete your pseudo-code.txt file to plan out how you will tackle the storing and retrieving the 3 pieces of data to Local Storage.
 2. Push your code to Github
 3. Submit the link to your pseudo-code.txt file to the Canvas milestone assignment. 
 
+### Deploy project to Netlify
+1. Deploy your `version-2` folder to [Netlify](https://www.netlify.com/) via your Github repo. In your Netlify Deploy settings, you will need to specify which version you want to deploy. Check out [this deployment guide to help you](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.jnwta4jrhylr#heading=h.scmsi7a6s9yz).
+
 ### 🎯 Milestone: Form data
-1. Pseudo-code what you will need to do to store and retrieve the Form data. 
+1. Review your pseudo-code for storing & retrieving this piece of data. 
 2. Work on storing Form data in Local Storage. When the user submits the form, the form data should be stored in Local Storage.
 3. Work on retrieving Form data from Local Storage. If the user has already submitted the Form, display "Welcome, {user}!" instead of the Form.
 4. Comment the code you wrote so that Future You can understand it later.
@@ -56,7 +56,7 @@ Make sure you've finished Version 1 before moving on with the following steps.
 6. Submit your Github repo link and Netlify link to the Canvas milestone.
 
 ### 🎯 Milestone: Saved Countries data
-1. Pseudo-code what you will need to do to store and retrieve the Saved Countries data.
+1. Review your pseudo-code for storing & retrieving this piece of data. 
 2. Work on saving a country in Local Storage. When the user saves a country, store the country's data in Local Storage.
 3. Make sure that a country cannot be saved twice. If you try to save a country that's already been saved, nothing should happen. 
 4. Work on retrieving the saved countries data from Local Storage, so that they show on the Saved Countries page. 
@@ -64,8 +64,8 @@ Make sure you've finished Version 1 before moving on with the following steps.
 6. Push your code to Github!
 7. Submit your Github repo link and Netlify link to the Canvas milestone.
 
-### 🎯 Milestone: View Count data 
-1. Pseudo-code what you will need to do to store and retrieve the View Count data. 
+### 🎯 Milestone: Country Counts data 
+1. Review your pseudo-code for storing & retrieving this piece of data. 
 2. When the user views a country's CountryDetail page, that country's view count should go up by 1, and that view count should be rendered on the page. 
 3. If you notice your view count is going up by 2 instead of 1, try this trick:  Update your main.jsx file by removing the StrictMode component that's wrapping your app. It was included by default in Vite’s setup to help catch bugs, but it causes React to render components twice in development, which is why your view count goes up by 2 instead of 1. Simply removing StrictMode from `main.jsx` will make your your view count increment correctly.
 4. Don’t forget to comment your logic as you go!
@@ -80,7 +80,7 @@ Make sure you've finished Version 1 before moving on with the following steps.
 2. Comment your code generously — Future You will thank you. You’ll be building on top of this project over the next 3 months, so help yourself out by writing clear, helpful comments that explain what your code is doing. Trust us, it will save you time and confusion later.
 3. Push your code to Github!
 
-### ⚙️ Submit to Canvas! You're done with Version 2
+### ⚙️ You're done with Version 2! 
 1. Push your code to Github
 2. Submit the Github repo link and Netlify deployment link to Canvas.
 
@@ -92,5 +92,6 @@ Here are a few next-level challenges to tackle:
 1. 🏆 On the Saved Countries page, add an “Unsave” button so the user can remove a country from their saved list.
 2. 🏆 Turn the Save button into a red heart ❤️ when the country has been saved, or a grey heart 🩶 when the country has not been saved. 
 3. 🏆 Add a “Submit again” button to the Form so the user can re-submit if they’d like to.
+
 
 
