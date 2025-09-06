@@ -126,7 +126,7 @@ Success! User has been added.
 
 ```json
 {
-  "newCount": 3
+  "count": 3
 }
 ```
 
