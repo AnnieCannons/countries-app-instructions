@@ -116,7 +116,7 @@ EXAMPLE VALUE: _______
 ------------------------
 🔶 STORING & RETRIEVING COUNTRY COUNTS DATA 
 ------------------------
-NOTE: We combine storing & retrieving country counts data into one section because they are closely intertwined. 
+NOTE: We combine storing & retrieving country counts data into one section because they always happen together. Each time we look up a country’s view count, we also need to increase it and save the new total.
 
 WHEN: _______
 
