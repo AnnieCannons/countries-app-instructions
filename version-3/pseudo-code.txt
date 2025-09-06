@@ -38,11 +38,11 @@ WHAT...
   TYPE OF HTTP REQUEST (GET OR POST): _______
   API ENDPOINT: _______
 
-  API ENDPOINT REQUEST BODY DATA TYPE (if applicable): _______
-  API ENDPOINT REQUEST BODY (if applicable): _______
+  REQUEST BODY DATA TYPE (if applicable): _______
+  REQUEST BODY (if applicable): _______
   
-  API ENDPOINT RESPONSE DATA TYPE: _______
-  API ENDPOINT RESPONSE: _______
+  RESPONSE DATA TYPE: _______
+  RESPONSE: _______
 
 WHEN: _______
 
@@ -61,11 +61,11 @@ WHAT...
   TYPE OF HTTP REQUEST (GET OR POST): _______
   API ENDPOINT: _______
 
-  API ENDPOINT REQUEST BODY DATA TYPE (if applicable): _______
-  API ENDPOINT REQUEST BODY (if applicable): _______
+  REQUEST BODY DATA TYPE (if applicable): _______
+  REQUEST BODY (if applicable): _______
   
-  API ENDPOINT RESPONSE DATA TYPE: _______
-  API ENDPOINT RESPONSE: _______
+  RESPONSE DATA TYPE: _______
+  RESPONSE: _______
   
 WHEN: _______
 
@@ -89,11 +89,11 @@ WHAT...
   TYPE OF HTTP REQUEST (GET OR POST): _______
   API ENDPOINT: _______
 
-  API ENDPOINT REQUEST BODY DATA TYPE (if applicable): _______
-  API ENDPOINT REQUEST BODY (if applicable): _______
+  REQUEST BODY DATA TYPE (if applicable): _______
+  REQUEST BODY (if applicable): _______
   
-  API ENDPOINT RESPONSE DATA TYPE: _______
-  API ENDPOINT RESPONSE: _______
+  RESPONSE DATA TYPE: _______
+  RESPONSE: _______
 
 WHEN: _______
 
@@ -113,11 +113,11 @@ WHAT...
   TYPE OF HTTP REQUEST (GET OR POST): _______
   API ENDPOINT: _______
 
-  API ENDPOINT REQUEST BODY DATA TYPE (if applicable): _______
-  API ENDPOINT REQUEST BODY (if applicable): _______
+  REQUEST BODY DATA TYPE (if applicable): _______
+  REQUEST BODY (if applicable): _______
   
-  API ENDPOINT RESPONSE DATA TYPE: _______
-  API ENDPOINT RESPONSE: _______
+  RESPONSE DATA TYPE: _______
+  RESPONSE: _______
 
 WHEN: _______
 
@@ -142,11 +142,11 @@ WHAT...
   TYPE OF HTTP REQUEST (GET OR POST): _______
   API ENDPOINT: _______
 
-  API ENDPOINT REQUEST BODY DATA TYPE (if applicable): _______
-  API ENDPOINT REQUEST BODY (if applicable): _______
+  REQUEST BODY DATA TYPE (if applicable): _______
+  REQUEST BODY (if applicable): _______
   
-  API ENDPOINT RESPONSE DATA TYPE: _______
-  API ENDPOINT RESPONSE: _______
+  RESPONSE DATA TYPE: _______
+  RESPONSE: _______
   
 WHEN: _______
 
