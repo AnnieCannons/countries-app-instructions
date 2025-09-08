@@ -28,12 +28,12 @@ In Version 1, you'll build a mobile-responsive React app that:
 ## 🚀 Roadmap: Step-by-step guide to building your project
 Make sure you've finished Version 0 before moving on with the following steps.
 
-### Project Setup: Copy your files over 
+### ⚙️ Project Setup: Copy your files over 
 1. Copy all of the files inside of your `version-0` folder
 2. Paste all of the files into your `version-1` folder
 3. Push your code to Github! You will use your `version-0` code as the starting point for your `version-1`.
 
-### Deploy project to Netlify
+### ⚙️ Deploy project to Netlify
 1. Deploy your `version-1` folder to [Netlify](https://www.netlify.com/) via your Github repo. In your Netlify Deploy settings, you will need to specify which version you want to deploy. Check out [this deployment guide to help you](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.jnwta4jrhylr#heading=h.scmsi7a6s9yz).
 
 ### 🎯 Milestone: Build Form on the SavedCountries Page
@@ -59,12 +59,12 @@ The goal of this milestone is to fetch the countries data from the API in your `
 2. Implement [dynamic routing with React Router by following this guide](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.f13uxxkk1u49#heading=h.k4m41u3ojj4d). This allows you to show details about a specific country based on which country you clicked on. 
 3. Push your code to Github!
 
-### Clean and Comment your code 
+### ⚙️ Clean and Comment your code 
 1. Clean up your code by renaming confusing variables, removing unused code, and organizing your logic. Your code should read like a newspaper: clear, easy to follow, and understandable at a glance.
 2. Comment your code and explain what your code is doing. Future You will thank you.
 3. Push your code to Github!
 
-⚙️ Submit to Canvas
+### ⚙️ Submit to Canvas
 1. Push your code to Github
 2. Submit the Github repo link and Netlify deployment link to Canvas.
 
