@@ -28,6 +28,9 @@ Add functionality to store the following data in Local Storage:
 
 Here's what the finished Version 2 will look like in the browser: https://countries-app-version-2.netlify.app/
 
+<img width="790" height="531" alt="image" src="https://github.com/user-attachments/assets/7dea0cdf-2654-4571-a895-51ec3efbf489" />
+
+
 ## 🔗 Resources
 
 - **Figma Designs:** Check out the [Figma designs](https://www.figma.com/design/YuEMNteoQic0h6RRiYprpV/Countries-API-Project?node-id=1404-20) to see how data should be rendered to the page. 
@@ -96,6 +99,7 @@ Here are a few next-level challenges to tackle:
 1. 🏆 On the Saved Countries page, add an “Unsave” button so the user can remove a country from their saved list.
 2. 🏆 Turn the Save button into a red heart ❤️ when the country has been saved, or a grey heart 🩶 when the country has not been saved. 
 3. 🏆 Add a “Submit again” button to the Form so the user can re-submit if they’d like to.
+
 
 
 
