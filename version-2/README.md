@@ -47,9 +47,10 @@ Make sure you've finished Version 1 before moving on with the following steps.
 3. Push your code to Github! You will use your `version-1` code as the starting point for your `version-2`.
 
 ### 🎯 Milestone: Pseudo-Code
-1. Complete your pseudo-code.txt file to plan out how you will tackle the storing and retrieving the 3 pieces of data to Local Storage.
-2. Push your code to Github
-3. Submit the link to your pseudo-code.txt file to the Canvas milestone assignment. 
+1. In your `version-2` folder, create a `pseudo-code.txt` file. Copy over the contents of [this template](https://github.com/AnnieCannons/countries-app-instructions/blob/main/version-2/pseudo-code.txt) into your empty file. 
+2. Answer all of the questions in your `pseudo-code.txt` file to plan out how you will tackle storing and retrieving the 3 pieces of data to Local Storage.
+3. Push your code to Github
+4. Submit the link to your `pseudo-code.txt` file to the Canvas milestone assignment. 
 
 ### Deploy project to Netlify
 1. Deploy your `version-2` folder to [Netlify](https://www.netlify.com/) via your Github repo. In your Netlify Deploy settings, you will need to specify which version you want to deploy. Check out [this deployment guide to help you](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.jnwta4jrhylr#heading=h.scmsi7a6s9yz).
@@ -74,7 +75,7 @@ Make sure you've finished Version 1 before moving on with the following steps.
 ### 🎯 Milestone: Country Counts data 
 1. Review your pseudo-code for storing & retrieving this piece of data. 
 2. When the user views a country's CountryDetail page, that country's view count should go up by 1, and that view count should be rendered on the page. 
-3. If you notice your view count is going up by 2 instead of 1, try this trick:  Update your main.jsx file by removing the StrictMode component that's wrapping your app. It was included by default in Vite’s setup to help catch bugs, but it causes React to render components twice in development, which is why your view count goes up by 2 instead of 1. Simply removing StrictMode from `main.jsx` will make your your view count increment correctly.
+3. If you notice your view count is going up by 2 instead of 1, try this trick:  Update your main.jsx file by removing the `StrictMode` component that's wrapping your app. It was included by default in Vite’s setup to help catch bugs, but it causes React to render components twice in development, which is why your view count goes up by 2 instead of 1. Simply removing `StrictMode` from `main.jsx` will make your your view count increment correctly.
 4. Don’t forget to comment your logic as you go!
 5. Push your code to Github!
 6. Submit your Github repo link and Netlify link to the Canvas milestone.
@@ -99,6 +100,7 @@ Here are a few next-level challenges to tackle:
 1. 🏆 On the Saved Countries page, add an “Unsave” button so the user can remove a country from their saved list.
 2. 🏆 Turn the Save button into a red heart ❤️ when the country has been saved, or a grey heart 🩶 when the country has not been saved. 
 3. 🏆 Add a “Submit again” button to the Form so the user can re-submit if they’d like to.
+
 
 
 
