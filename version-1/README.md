@@ -16,6 +16,10 @@ In Version 1, you'll build a mobile-responsive React app that:
 - As a user, when I view the Saved Countries page, I can submit a form with my profile information
 - As a user, when I click on a CountryCard from the Home page, I will see information about that specific country
 
+## 💎 Demo
+
+Here's what the finished Version 1 will look like in the browser: https://countries-app-version-1.netlify.app/
+
 ![Example of what Version 1 of Countries API Project should look like](https://github.com/user-attachments/assets/79094b58-6856-4491-8fa5-0a394f85f0b9)
 
 
