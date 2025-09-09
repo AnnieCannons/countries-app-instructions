@@ -23,6 +23,10 @@ Add functionality to store the following data in Local Storage:
 3. **View Count data** 
     - As a user, when I open a country's page, I should be able to see how many times the user has viewed this country.
     - Every time I view a country's page, its view count should go up by 1.
+  
+## 💎 Demo
+
+Here's what the finished Version 2 will look like in the browser: https://countries-app-version-2.netlify.app/
 
 ## 🔗 Resources
 
@@ -92,6 +96,7 @@ Here are a few next-level challenges to tackle:
 1. 🏆 On the Saved Countries page, add an “Unsave” button so the user can remove a country from their saved list.
 2. 🏆 Turn the Save button into a red heart ❤️ when the country has been saved, or a grey heart 🩶 when the country has not been saved. 
 3. 🏆 Add a “Submit again” button to the Form so the user can re-submit if they’d like to.
+
 
 
 
