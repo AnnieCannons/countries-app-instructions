@@ -123,6 +123,7 @@ Refer to this [react-router guide](https://docs.google.com/document/d/18jxCUA0be
    <Home countriesData={dataFromLocalFile} />
    ```
 3. In `Home.jsx`, use the `countriesData` prop to render a list of `CountryCard` components — one for each country.
+      - **Note:** When rendering the country name, please always use the _common_ name instead of the official name.
 4. In `App.css`, style the `Home` and `CountryCard` components to match the Figma designs.
 5. Add, commit, and push your code to Github. 
 
