@@ -97,7 +97,12 @@ Make sure you've finished Version 1 before moving on with the following steps.
 Finished all the above steps? Fantastic! 🎉
 
 Here are a few next-level challenges to tackle:
-1. 🏆 Refactor your saved countries feature: Store only the country names in Local Storage as an array of strings. Use the key `savedCountries`. An example of the value would be `[ "Brazil", "Cambodia", "Pakistan", "Antarctica" ]`). This refactor will set you up for success in Version 3!
+1. 🏆 Refactor your saved countries feature: 
+    - Store only the _names_ of the saved countries in Local Storage as an array of strings.
+    - Use the key `savedCountries`.
+    - An example of the value would be `[ "Brazil", "Cambodia", "Pakistan", "Antarctica" ]`.
+    - This refactor will set you up for success in Version 3!
 2. 🏆 On the Saved Countries page, add an “Unsave” button so the user can remove a country from their saved list.
 3. 🏆 Turn the Save button into a red heart ❤️ when the country has been saved, or a grey heart 🩶 when the country has not been saved. 
 4. 🏆 Add a “Submit again” button to the Form so the user can re-submit if they’d like to.
+
