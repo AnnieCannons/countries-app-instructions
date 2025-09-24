@@ -42,22 +42,22 @@ To use the API provided to you, check out the `api-documentation.md` file.
 ## 🚀 Roadmap: Step-by-step guide to building Version 3
 Make sure you've finished Version 2 before starting. 
 
-### Review the API documentation
+### ⚙️ Review the API documentation
 1. Check out the `api-documentation.md` file to learn about all of the API endpoints you can use to store & retrieve the Form data, Saved Countries data, and Country Count data.
 
-### Plan and Pseudo-code
+### ⚙️ Plan and Pseudo-code
 1. Take time to understand your current code: App.jsx, App.css, pages, and components.
 2. Think through where you will be storing and retrieving the 3 pieces of data (form, saved countries, and view count).
 3. Pseudo-code the data flow for the 3 pieces of data. 
 
-###  Project Setup: Copy your files over 
+### ⚙️ Project Setup: Copy your files over 
 1. Copy all of the files from your `version-2` folder and paste them into your `version-3` folder
 2. Push your code to Github! Your `version-2` code will serve as the starting point for `version-3`.
 
-### Deploy project to Netlify
+### ⚙️ Deploy project to Netlify
 1. Deploy your version-2 folder to Netlify via your Github repo. In your Netlify Deploy settings, you will need to specify which version you want to deploy. Check out this deployment guide to help you.
 
-### Project Setup: Replace the contents of your `vite.config.js` file
+### ⚙️ Project Setup: Replace the contents of your `vite.config.js` file
 1. Delete all of the code that's currently inside of your `vite.config.js` file
 2. In its place, copy and paste this code into your `vite.config.js` file:
    ```
@@ -82,9 +82,9 @@ Make sure you've finished Version 2 before starting.
 
    ```
 
-### Project Setup: Add a `_redirects` file to your `public` folder
+### ⚙️ Project Setup: Modify the `_redirects` file to your `public` folder
 1. Locate the `public` folder inside of your `src` folder in your `version-3` folder.
-2. Inside of the `public` folder, create a new file called `_redirects`. Make sure the spelling is exactly `_redirects`!
+2. In the `public` folder, locate the file called `_redirects`. If you don't have one already, make it. 
 3. Inside of this file, copy and paste this code:
    ```
     /api/* https://backend-answer-keys.onrender.com/:splat 200
@@ -115,15 +115,16 @@ Make sure you've finished Version 2 before starting.
 5. Push your code to Github!
 6. Submit your Github repo link and Netlify link to the Canvas milestone.
 
-### Test everything
+### ⚙️ Test everything
 Test that all 3 pieces of data are being stored and retrieved properly. Make sure everything is working. Double check that you completed all of the project requirements (listed above).
 
-### Clean and Comment your code
+### ⚙️ Clean and Comment your code
 1. Clean up your code by renaming confusing variables, removing unused code, and organizing your logic. Your code should read like a newspaper: clear, easy to follow, and understandable at a glance.
 2. Comment your code generously — Future You will thank you. You’ll be building on top of this project over the next 3 months, so help yourself out by writing clear, helpful comments that explain what your code is doing. Trust us, it will save you time and confusion later.
 Push your code to Github!
 
-⚙️ Submit to Canvas! You're done with Version 3!
+### ⚙️ Submit to Canvas! You're done with Version 3!
 1. Push your code to Github
 2. Submit the Github repo link and Netlify deployment link to Canvas.
+
 
