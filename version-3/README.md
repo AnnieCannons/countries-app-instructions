@@ -122,7 +122,9 @@ Make sure you've finished Version 2 before starting.
 8. Submit your Github repo link and Netlify link to the Canvas milestone.
 
 ### ⚙️ Test everything
-Test that all 3 pieces of data are being stored and retrieved properly. Make sure everything is working. Double check that you completed all of the project requirements (listed above).
+1. Test that all 3 pieces of data are being stored and retrieved from the API properly. Open your browser's Developer Tools, go to the Network tab, and check that the `GET` and `POST` requests are being sent when expected.
+2. Make sure all the Local Storage code is removed.
+3. Make sure everything is working, and there are no errors. Double check that you completed all of the project requirements (listed above).
 
 ### ⚙️ Clean and Comment your code
 1. Clean up your code by renaming confusing variables, removing unused code, and organizing your logic. Your code should read like a newspaper: clear, easy to follow, and understandable at a glance.
@@ -132,6 +134,7 @@ Push your code to Github!
 ### ⚙️ Submit to Canvas! You're done with Version 3!
 1. Push your code to Github
 2. Submit the Github repo link and Netlify deployment link to Canvas.
+
 
 
 
