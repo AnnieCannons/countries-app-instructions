@@ -97,26 +97,29 @@ Make sure you've finished Version 2 before starting.
 2. Store the data with a `POST` request: When the user submits the form, send the form data to the backend.
 3. Retrieve the data with a `GET` request: If the user has already submitted the form, display “Welcome, [name]!” instead.
 4. Remove all code that saves or retrieves the Form data from Local Storage. This is no longer needed because the Form data is now being stored and retrieved through the API.
-5. Add comments explaining your logic so that Future You can understand it later.
-6. Push your code to Github!
-7. Submit your Github repo link and Netlify link to the Canvas milestone.
+5. Test your work: Open your browser’s Developer Tools, go to the Network tab, and check that the `GET` and `POST` requests for your Form data are being sent when expected.
+6. Add comments explaining your logic so that Future You can understand it later.
+7. Push your code to Github!
+8. Submit your Github repo link and Netlify link to the Canvas milestone.
 
 ### 🎯 Milestone: Country Counts data 
 1. Pseudo-code your plan for tracking the View Count data. 
 2. Store the data with a `POST` request: Each time the user views a country's CountryDetail page, update its view count by sending a POST request to the API. In the response, you will get back the new count within an object: display the new count on the country's CountryDetail page.
 3. Remove all code that saves or retrieves the Country Counts data from Local Storage. This is no longer needed because the Country Counts data is now being stored and retrieved through the API.
-4. Add comments explaining your logic so that Future You can understand it later.
-5. Push your code to Github!
-6. Submit your Github repo link and Netlify link to the Canvas milestone.
+4. Test your work: Open your browser’s Developer Tools, go to the Network tab, and check that the `GET` and `POST` requests for your Country Counts data are being sent when expected.
+5. Add comments explaining your logic so that Future You can understand it later.
+6. Push your code to Github!
+7. Submit your Github repo link and Netlify link to the Canvas milestone.
 
 ### 🎯 Milestone: Saved Countries data
 1. Pseudo-code your plan to store and retrieve Saved Countries data.
 2. Store the data with a `POST` request: When the user saves a country, send that country's data to the backend.
 3. Retrieve the data with a `GET` request: Retrieve and display saved countries on the Saved Countries page.
 4. Remove all code that saves or retrieves the Saved Countries data from Local Storage. This is no longer needed because the Saved Countries data is now being stored and retrieved through the API.
-5. Add comments explaining your logic so that Future You can understand it later.
-6. Push your code to Github!
-7. Submit your Github repo link and Netlify link to the Canvas milestone.
+5. Test your work: Open your browser’s Developer Tools, go to the Network tab, and check that the `GET` and `POST` requests for your Saved Countries data are being sent when expected.
+6. Add comments explaining your logic so that Future You can understand it later.
+7. Push your code to Github!
+8. Submit your Github repo link and Netlify link to the Canvas milestone.
 
 ### ⚙️ Test everything
 Test that all 3 pieces of data are being stored and retrieved properly. Make sure everything is working. Double check that you completed all of the project requirements (listed above).
@@ -129,6 +132,7 @@ Push your code to Github!
 ### ⚙️ Submit to Canvas! You're done with Version 3!
 1. Push your code to Github
 2. Submit the Github repo link and Netlify deployment link to Canvas.
+
 
 
 
