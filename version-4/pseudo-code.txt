@@ -3,13 +3,11 @@
 -------------------------------------
 
 It's time to build your own API for your full-stack Countries App! 
-But before you start writing any code, you'll pseudo-code by matching your SQL commands to the API endpoints. 
-
-You’ve already written SQL commands to interact with your database directly.  
+So far, you've already deployed your database and wrote SQL commands to interact with your database directly. 
 Now, you’ll connect those same SQL commands to the corresponding API endpoints. 
 This will help you pseudo-code before you start coding your Countries API! 
 
-Your task: Match each SQL command to the corresponding API endpoint. 
+Your task: Match your SQL code to each API endpoint. 
 
 -------------------------------------
 📁 STEP 1: FIND YOUR DB FIDDLE
@@ -28,36 +26,38 @@ If you're having trouble finding it, try checking your submission to this Canvas
 For each API endpoint below:
 1️⃣ Find the SQL command in your DB Fiddle that performs the same action.
 2️⃣ Copy and paste YOUR SQL command under that endpoint️.
+3️⃣ Identify the dynamic values ($1, $2, etc.) your helper function will use in your SQL command. 
+   
+-------------------------------------
+📊 EXAMPLE
+-------------------------------------
+Here's an example of how you'd fill out this pseudo-coding template for an example endpoint. 
+
+🔹 POST /update-one-animal-name
+Description: Retrieves the most recently added user. 
+Your SQL command: 
+UPDATE animals SET name = $1 WHERE id = $2
 
 -------------------------------------
 📊 USERS
 -------------------------------------
 
 🔹 GET /get-newest-user  
-Description: Retrieves the most recently added user.  
-Your SQL command:
-______________________________________________________________
-______________________________________________________________
-______________________________________________________________
-______________________________________________________________
+Description: Retrieves the most recently added user. 
+Your SQL command: 
+____________________________
 
 
 🔹 GET /get-all-users  
 Description: Retrieves all users from the database.  
 Your SQL command:
-______________________________________________________________
-______________________________________________________________
-______________________________________________________________
-______________________________________________________________
+____________________________
 
 
 🔹 POST /add-one-user  
 Description: Adds a new user to the database.  
 Your SQL command:
-______________________________________________________________
-______________________________________________________________
-______________________________________________________________
-______________________________________________________________
+____________________________
 
 
 -------------------------------------
@@ -67,28 +67,22 @@ ______________________________________________________________
 🔹 GET /get-all-saved-countries  
 Description: Retrieves a list of all saved countries.  
 Your SQL command:
-______________________________________________________________
-______________________________________________________________
-______________________________________________________________
-______________________________________________________________
+____________________________
+
 
 
 🔹 POST /save-one-country  
 Description: Saves a country if it hasn’t already been saved.  
 Your SQL command:
-______________________________________________________________
-______________________________________________________________
-______________________________________________________________
-______________________________________________________________
+____________________________
+
 
 
 🔹 POST /unsave-one-country  
 Description: Unsaves a country if it has been saved.  
 Your SQL command:
-______________________________________________________________
-______________________________________________________________
-______________________________________________________________
-______________________________________________________________
+____________________________
+
 
 
 -------------------------------------
@@ -98,8 +92,4 @@ ______________________________________________________________
 🔹 POST /update-one-country-count  
 Description: Updates (or initializes) the view count for a country.  
 Your SQL command:
-______________________________________________________________
-______________________________________________________________
-______________________________________________________________
-______________________________________________________________
-
+____________________________
