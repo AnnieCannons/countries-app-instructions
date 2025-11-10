@@ -154,9 +154,10 @@ The `client` folder will contain all the frontend code, and the `server` folder 
 
 Finished the main requirements? Here are some bonus challenges:
 
-- 🏆 Add a “Delete” route to unsave a single country
-- 🏆 Add a “Clear” feature to unsave all countries
-- 🏆 Add a “Reset Count” feature to reset a country's count back to 0 
+- 🏆 Add an `/unsave-one-country` API endpoint to unsave a single country
+- 🏆 Add an `/unsave-all-countries` API endpoint to unsave all countries
+- 🏆 Add a `/reset-one-country-count` API endpoint to reset a country's count back to 0 
+
 
 
 
