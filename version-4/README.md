@@ -105,7 +105,7 @@ The `client` folder will contain all the frontend code, and the `server` folder 
 ---
 
 ### ⚙️ Set up your server's boilerplate code 
-1. In your server's `index.js` file, set up your server using the same boilerplate code as the `06-recipe-API-server-SQL` project. 
+1. In your server's `index.js` file, set up your server using the same boilerplate code as the Animals API `node-7-express-sql` project. 
 
 ---
 
@@ -157,6 +157,7 @@ Finished the main requirements? Here are some bonus challenges:
 - 🏆 Add an `/unsave-one-country` API endpoint to unsave a single country
 - 🏆 Add an `/unsave-all-countries` API endpoint to unsave all countries
 - 🏆 Add a `/reset-one-country-count` API endpoint to reset a country's count back to 0 
+
 
 
 
