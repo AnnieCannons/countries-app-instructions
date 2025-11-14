@@ -6,7 +6,7 @@ There are many deployment tools out there (like Heroku, DigitalOcean, and AWS) b
 
 ---
 
-## Set up your `version-5` folder
+## ⚙️ Set up your `version-5` folder
 
 1. Copy the `client` folder in your `version-4` folder. Paste it into your `version-5` folder.
 2. Copy the `server` folder in your `version-4` folder. Paste it into your `version-5` folder.
@@ -14,7 +14,7 @@ There are many deployment tools out there (like Heroku, DigitalOcean, and AWS) b
 
 ---
 
-## Updating your server/API's code in its `index.js` file 
+## ⚙️ Updating your server/API's code in its `index.js` file 
 
   - Locate the `version-5/server/index.js` file, where your server/API code lives. We will update the boilerplate code in this `index.js` file. 
   - In the `index.js` file, update the value of the `connectionString` property to be `process.env.DATABASE_URL`: 
@@ -32,7 +32,7 @@ There are many deployment tools out there (like Heroku, DigitalOcean, and AWS) b
 
 ---
 
-## Create a Render account
+## ⚙️ Create a Render account
 
 We will use Render to deploy our web server remotely to the web. 
 
@@ -41,7 +41,7 @@ We will use Render to deploy our web server remotely to the web.
 
 ---
 
-## Create a Web Server on Render
+## ⚙️ Create a Web Server on Render
 
 We will create a remote web server on Render that will run our Node.js code.
 
@@ -58,7 +58,7 @@ We will create a remote web server on Render that will run our Node.js code.
 
 ---
 
-## Find your Neon Database's Connection String
+## ⚙️ Find your Neon Database's Connection String
 
 1. Go to the Neon.tech website and open up your Neon project's dashboard. You should see a 'Connect to your database' section where you can click on the Connect button.
 
@@ -77,7 +77,7 @@ We will create a remote web server on Render that will run our Node.js code.
 
 ---
  
-## Configure your Web Server's Environment Variables in Render
+## ⚙️ Configure your Web Server's Environment Variables in Render
 
 To update your Render-hosted server to your Neon-hosted database, you will need to update the Render web server's environment variables to match the Neon database's connection string. 
 
@@ -91,7 +91,7 @@ To update your Render-hosted server to your Neon-hosted database, you will need 
 
 --- 
 
-## Debug your deployed server/API 
+## ⚙️ Debug your deployed server/API 
 
 - Check the Logs tab on Render, which is where any error messages or console.log messages will show up. They will no longer show up in the server terminal anymore, because we're no longer running it on our local machine. 
 
@@ -103,7 +103,7 @@ To update your Render-hosted server to your Neon-hosted database, you will need 
 
 ---
 
-## Find your deployed server's URL and test its endpoints 
+## ⚙️ Find your deployed server's URL and test its endpoints 
 
 If you've cleared all error messages on Render and it looks like it deployed successfully, it's time to test it!
 
@@ -122,7 +122,7 @@ If you've cleared all error messages on Render and it looks like it deployed suc
 
 ---
 
-## Update the `vite.config.js` file in the frontend
+## ⚙️ Update the `vite.config.js` file in the frontend
 
 - Now it's time to update the frontend code, which is in the `client` folder. First, locate your `vite.config.js` file in your `client` folder. 
 - In your `vite.config.js` file, change the value of the `target` key so that it is your Render server's URL rather than `http://localhost:3000`:
@@ -151,7 +151,7 @@ If you've cleared all error messages on Render and it looks like it deployed suc
 
 ---
 
-## Update the `_redirects` file in the frontend
+## ⚙️ Update the `_redirects` file in the frontend
     
 - Locate the `_redirects` file in the `public` folder** of your `client` folder. Currently it will have the following content:
         
@@ -170,7 +170,7 @@ If you've cleared all error messages on Render and it looks like it deployed suc
 
 ---
 
-## Deploy `version-5/client` folder to Netlify
+## ⚙️ Deploy `version-5/client` folder to Netlify
 
 - In your Netlify account, deploy your `version-5/client` folder, which contains the frontend of your application. [Refer to this guide if you need help with this.](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.jnwta4jrhylr#heading=h.scmsi7a6s9yz)
 - Open the Netlify deployment link in the browser.
@@ -180,12 +180,12 @@ At this point, you've:
 - deployed your frontend to Netlify
 - deployed your backend PostgreSQL database to Render
 - deployed your backend API to Render
-- 
+  
 That means you’ve deployed all 3 parts of your full-stack application to the internet! YAY! 
 
 ---
 
-## Test your full-stack application
+## ⚙️ Test your full-stack application
 
 Now it’s time to test! Go to your Netlify deployment link in the browser. Test your site by doing the following:
 
@@ -210,7 +210,7 @@ If you answered yes to all the above questions, you’re done with the Countries
 
 ---
 
-## Troubleshooting
+## ⁉️ Troubleshooting
 
 - You can use Postman to troubleshoot your Render API endpoints if you are getting errors.
 - The Logs section of Render will show you the console.logs or any error messages in your backend
