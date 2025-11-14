@@ -137,14 +137,6 @@ Refer to this [react-router guide](https://docs.google.com/document/d/18jxCUA0be
 
 ---
 
-### ⚙️ Build the Form component
-1. In the `components` folder, create a `Form.jsx` file that will contain your Form component, so that the user can submit their profile information (name, email, country, and bio). 
-2. In `SavedCountries.jsx`, render the Form component
-3. Style the Form according to the Figma designs
-4. Add, commit, and push your code to Github. 
-
----
-
 ### ⚙️ Clean and Comment your code
 1. Clean up your code by renaming confusing variables, removing unused code, and organizing your logic. Your code should read like a newspaper: clear, easy to follow, and understandable at a glance.
 2. Comment your code generously — Future You will thank you. You’ll be building on top of this project over the next 3 months, so help yourself out by writing clear, helpful comments that explain what your code is doing. Trust us, it will save you time and confusion later.
