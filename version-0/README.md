@@ -107,10 +107,18 @@ To see how your project looks in the browser, let's run your code!
 ### ⚙️ Set up Routes with `react-router`
 Refer to this [react-router guide](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.hbxxe6vmm0fq#heading=h.snu4ai1ffrgi) as you do the following steps:
 1. In the terminal, in your `version-0` folder, install the `react-router` package using the command `npm install react-router`. 
-2. In App.jsx file, set up Routes for 3 pages: Home page, SavedCountries page, and CountryDetail page.
+2. In App.jsx file, set up Routes for 3 pages: 
+      - Home page
+      - SavedCountries page
+      - CountryDetail page
+  
+---
+
+### ⚙️ Render a header in `App.jsx`
 3. In App.jsx, render a header that contains two links:
      - "Where in the world?" should link to the Home page
      - "Saved Countries" should link to the SavedCountries page
+     - There should be _**no link**_ for the CountryDetail page in the header. 
 4. In App.css, style the header 
 5. Add, commit, and push your code to Github.
 
@@ -126,6 +134,14 @@ Refer to this [react-router guide](https://docs.google.com/document/d/18jxCUA0be
       - **Note:** When rendering the country name, please always use the _common_ name instead of the official name.
 4. In `App.css`, style the `Home` and `CountryCard` components to match the Figma designs.
 5. Add, commit, and push your code to Github. 
+
+---
+
+### ⚙️ Build the Form component
+1. In the `components` folder, create a `Form.jsx` file that will contain your Form component, so that the user can submit their profile information (name, email, country, and bio). 
+2. In `SavedCountries.jsx`, render the Form component
+3. Style the Form according to the Figma designs
+4. Add, commit, and push your code to Github. 
 
 ---
 
